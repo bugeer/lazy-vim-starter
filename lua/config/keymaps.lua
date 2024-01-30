@@ -4,5 +4,7 @@
 
 vim.keymap.del("n", "H")
 vim.keymap.del("n", "L")
+vim.keymap.del("n", "<A-j>")
+vim.keymap.del("n", "<A-k>")
 vim.keymap.set("n", "<A-h>", "<cmd>bprevious<cr>")
 vim.keymap.set("n", "<A-l>", "<cmd>bnext<cr>")
