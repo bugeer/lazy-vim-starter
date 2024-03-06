@@ -13,6 +13,14 @@ vim.opt.scrolloff = 2
 vim.opt.foldmethod = "indent"
 vim.opt.foldlevel = 99
 
+vim.opt.listchars = {
+  trail    = "┌",
+  eol      = "󰌑",
+  extends  = "↠",
+  precedes = "↞",
+  tab      = "󰌒󰌒",
+}
+
 -- 在C++中启用折叠
 -- vim.cmd([[
 --   autocmd FileType cpp setlocal foldmethod=syntax
