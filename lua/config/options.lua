@@ -6,8 +6,8 @@
 vim.g.autoformat = false
 
 vim.opt.scrolloff = 2
--- vim.opt.tabstop = 4
--- vim.opt.shiftwidth =4
+vim.opt.tabstop = 4
+vim.opt.shiftwidth =4
 
 -- 在Vim中启用折叠
 vim.opt.foldmethod = "indent"
