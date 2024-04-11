@@ -15,13 +15,9 @@ vim.opt.foldlevel = 99
 
 vim.opt.listchars = {
   trail    = "┌",
-  eol      = "󰌑",
+  eol      = "󰘌",
   extends  = "↠",
   precedes = "↞",
   tab      = "󰌒󰌒",
 }
 
--- 在C++中启用折叠
--- vim.cmd([[
---   autocmd FileType cpp setlocal foldmethod=syntax
--- ]])
