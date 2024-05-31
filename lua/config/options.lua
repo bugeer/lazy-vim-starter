@@ -5,13 +5,13 @@
 
 vim.g.autoformat = false
 
-vim.opt.scrolloff = 2
-vim.opt.tabstop = 4
-vim.opt.shiftwidth =4
+vim.opt.scrolloff  = 2
+vim.opt.tabstop    = 2
+vim.opt.shiftwidth = 2
 
 -- 在Vim中启用折叠
 vim.opt.foldmethod = "indent"
-vim.opt.foldlevel = 99
+vim.opt.foldlevel  = 99
 
 vim.opt.listchars = {
   trail    = "┌",
