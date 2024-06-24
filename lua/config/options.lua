@@ -15,9 +15,10 @@ vim.opt.foldlevel  = 99
 
 vim.opt.listchars = {
   trail    = "┌",
-  eol      = "󰘌",
+  -- eol      = "󰘌",
   extends  = "↠",
   precedes = "↞",
-  tab      = "󰌒󰌒",
+  tab      = "",
+
 }
 
