@@ -19,7 +19,6 @@ vim.opt.listchars = {
   extends  = "↠",
   precedes = "↞",
   tab      = "",
-
 }
 
 -- !
