@@ -7,7 +7,7 @@ vim.keymap.del("n", "L")
 vim.keymap.del("n", "<A-j>")
 vim.keymap.del("n", "<A-k>")
 
-local uname = vim .loop.os_uname();
+local uname = (vim.loop or vim.uv).os_uname();
 
 if uname.sysname == "Darwin" then
     vim.keymap.set("n", "<M-h>", "<cmd>bprevious<cr>")
