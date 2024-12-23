@@ -21,6 +21,8 @@ vim.opt.listchars = {
   tab      = "",
 }
 
+vim.g.snacks_animate = false
+
 -- !
 -- !
 -- !󰁍
