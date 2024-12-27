@@ -3,9 +3,10 @@
 -- Add any additional options here
 -- vim.opt.winbar = "%=%m %f"
 
-vim.g.autoformat = false
+vim.g.autoformat     = false
+vim.g.snacks_animate = false
 
-vim.opt.scrolloff  = 2
+vim.opt.scrolloff  = 0
 vim.opt.tabstop    = 4
 vim.opt.shiftwidth = 4
 
@@ -20,8 +21,6 @@ vim.opt.listchars = {
   precedes = "↞",
   tab      = "",
 }
-
-vim.g.snacks_animate = false
 
 -- !
 -- !
