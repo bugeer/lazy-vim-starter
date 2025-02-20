@@ -14,6 +14,8 @@ vim.opt.shiftwidth = 4
 vim.opt.foldmethod = "indent"
 vim.opt.foldlevel  = 99
 
+vim.opt.fileencodings = { "utf=8", "chinese", "latin-1", "gbk", "gb18030", "gk2312", "cp936" }
+
 vim.opt.listchars = {
   trail    = "┌",
   eol      = "",
