@@ -16,3 +16,4 @@ else
     vim.keymap.set("n", "<A-h>", "<cmd>bprevious<cr>")
     vim.keymap.set("n", "<A-l>", "<cmd>bnext<cr>")
 end
+

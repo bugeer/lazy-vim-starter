@@ -24,6 +24,16 @@ vim.opt.listchars = {
   tab      = "",
 }
 
+-- neovide curse style
+vim.opt.guicursor = {
+  "n-v-c:block",           -- 普通、可视、命令模式：方块光标
+  "i-ci-ve:ver25",         -- 插入、命令行插入、可视选择模式：竖线光标
+  "r-cr:hor20",            -- 替换、命令行替换模式：横线光标
+  "o:hor50",               -- operator-pending 模式：较粗横线
+  "a:blinkwait700-blinkon400-blinkoff250", -- 所有模式光标闪烁样式
+  "sm:block-blinkwait175-blinkon150-blinkoff175", -- showmatch 模式光标样式
+}
+
 -- !
 -- !
 -- !󰁍
